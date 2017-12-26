@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+	<bean id="dbParam" class="com.scott.common.DBParam">
+		<property name="driverUrl" value="jdbc:oracle:thin:@192.10.110.89:1521:ORCL"></property>
+		<property name="username" value="scott"></property>
+		<property name="password" value="kitty"></property>
+	</bean>
+
+</beans>

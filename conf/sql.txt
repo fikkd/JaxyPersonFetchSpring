@@ -1,0 +1,59 @@
+-- Create table
+create table ZRRINFO
+(
+  id      VARCHAR2(32),
+  gmsfhm  VARCHAR2(200),
+  xm      VARCHAR2(200),
+  zym     VARCHAR2(200),
+  xb      VARCHAR2(200),
+  ssxq    VARCHAR2(200),
+  mz      VARCHAR2(200),
+  csrq    VARCHAR2(200),
+  hh      VARCHAR2(200),
+  hlx     VARCHAR2(200),
+  yhzgx   VARCHAR2(200),
+  jgssx   VARCHAR2(200),
+  zt      VARCHAR2(200),
+  pcs     VARCHAR2(200),
+  csdxz   VARCHAR2(200),
+  ssjwh   VARCHAR2(200),
+  hsql    VARCHAR2(200),
+  rownum_ VARCHAR2(32)
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255;
+-- Add comments to the columns 
+comment on column ZRRINFO.gmsfhm
+  is '公民身份号码';
+comment on column ZRRINFO.xm
+  is '姓名';
+comment on column ZRRINFO.zym
+  is '曾用名';
+comment on column ZRRINFO.xb
+  is '性别';
+comment on column ZRRINFO.ssxq
+  is '所属省市县区';
+comment on column ZRRINFO.mz
+  is '民族';
+comment on column ZRRINFO.csrq
+  is '出生日期';
+comment on column ZRRINFO.hh
+  is '户号';
+comment on column ZRRINFO.hlx
+  is '户类型';
+comment on column ZRRINFO.yhzgx
+  is '与户主关系';
+comment on column ZRRINFO.jgssx
+  is '籍贯省市县区';
+comment on column ZRRINFO.zt
+  is '状态';
+comment on column ZRRINFO.pcs
+  is '派出所';
+comment on column ZRRINFO.csdxz
+  is '出生地详址';
+comment on column ZRRINFO.ssjwh
+  is '所属居委会';
+comment on column ZRRINFO.hsql
+  is '何时迁来';
